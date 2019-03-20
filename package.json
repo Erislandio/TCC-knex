@@ -1,0 +1,36 @@
+{
+  "name": "tcc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erislandio/Tcc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erislandio/Tcc/issues"
+  },
+  "homepage": "https://github.com/Erislandio/Tcc#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.13",
+    "mongoose-sequence": "^5.0.1",
+    "nodemailer": "^5.1.1",
+    "nodemailer-express-handlebars": "^3.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
